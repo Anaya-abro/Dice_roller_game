@@ -1,8 +1,11 @@
 # 🎲 Dice Rolling Game
 
+
+
 A simple Python game where the user can roll a dice and get a random number between 1 and 6.
 
----
+
+
 
 ## Features
 
@@ -11,7 +14,9 @@ A simple Python game where the user can roll a dice and get a random number betw
 - Replay option
 - Input validation for "yes" or "no"
 
----
+
+
+
 
 ## 🕹️ How to Play
 
