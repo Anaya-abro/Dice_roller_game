@@ -13,17 +13,17 @@ while True:
  computer = random.randint(1,6)
 
 
-#if  the user types "yes" rolled the dice  
+#If  the user types "yes" rolled the dice  
  if user == 'yes':
     print('You rolled:',computer)
 
 
-#if the  user types "no" print okay maybe next time
+#If the  user types "no" print okay maybe next time
  elif user == 'no':
    print('Okay! maybe next time')
 
 
-#if  the user types invalid text print please type "yes or no"    
+#If  the user types invalid text print please type "yes or no"    
  else:
    print(f'Please type "yes" or "no". ')
    continue
@@ -33,7 +33,7 @@ while True:
  answer = input('Do you want to play another round (yes/no):').lower()
 
  
-# if answer "no" print thanks for playing and break the loop
+# If answer "no" print thanks for playing and break the loop
  if answer == 'no':
    print('Thank you for playing') 
    break  
